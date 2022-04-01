@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOLVO</title><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+
+    <style>
+        *{margin: 0;padding: 0;list-style: none;font-family: 'NanumSquare', sans-serif;}
+        body,html{height: 100%;}
+        #main{width: 100%; height:100%; background: url(bg_xc40.jpg) center top no-repeat;background-size: cover;}
+        header{width: 1200px;height: 60px;margin: auto;}
+        #logo{width: 54px;height: 54px;float: left;margin-top: 3px;}
+        #menu {height: 60px;float: right;}
+        #menu>li {float: left;margin-left: 30px;line-height: 60px;color: #fff;font-size: 17px;}
+        #main_textbox { width: 1000px;height: 180px;margin: auto;margin-top: 100px;}
+        #main_textbox>h4 { font-size: 34px;color: #fff;margin-top: 10px;font-weight: 200;}
+        #section1{width: 1200px;margin: auto;margin-top: 100px;}
+        /* #section1>h2{}
+        #section1>h2>img{} */
+        #section1>p{text-align: center;font-size: 18px;margin-top: 30px;}
+        #section1_box1 { width: 1200px;height: 675px;margin-top: 40px;background: url(sec1_vod1.jpg)center no-repeat;background-size: cover;position: relative;}
+        #section1_box2{width: 1200px;height: 220px;background: url(sec1_banner1.jpg)center no-repeat;position: relative;overflow: hidden;padding: 30px;box-sizing: border-box;}
+        #section1_box2>p{margin-top: 20px;margin-left: 10px;color: #fff;font-size: 30px;font-weight: 300;}
+        .play_btn{position: absolute;left: 0;right: 0; top: 0; bottom: 0; margin: auto;}
+        .sec1_btn1 { position: absolute;left: 40px;bottom: 40px;}
+        #section2{width: 1200px;margin: auto; margin-top: 100px;position: relative;}
+        #section2>h2{text-align: center;}
+        #section2>h2>img{}
+        #section2>p{text-align: center;font-size: 18px;margin-top: 15px;}
+        #section2>ul{margin-top: 15px;width: 1200px;height: 570px;background-color: #ccc;}
+        #section2>ul>li {float: left;position: relative;}
+        #section2>ul>li>img{vertical-align: top;} 
+        #section2>ul>li>h4 { position: absolute; left: 20px;bottom: 50px;color: #fff;font-size: 18px;}
+        #section2>ul>li>h5 { position: absolute;left: 20px;bottom: 40px;color: #fff;font-size: 12px;font-weight: 200;}
+        #section2>#sec2_btn{ position: absolute;left: 0;right: 0;margin: auto;margin-top: 100px;}
+        /*  */
+        #section3{width: 1200px;height: 800px;margin: auto;margin-top: 500px;}
+        #section3>h2 { text-align: center;}
+        #section3>h2>img{}
+        #section3>p { text-align: center;font-size: 18px;margin-top: 15px;}
+        #section3_box{width: 1200px;height: 715px;background-color: #ccc;background: url(sec4_vod1.jpg)center no-repeat;position: relative;}
+        #section3_box>#sec3_box_bt{position: absolute;left: 0;right: 0;margin: auto;margin-top: 300px;}  
+
+        #section4{width: 1200px;margin: auto;margin-top: 300px;text-align: center;margin-bottom: 300px;}
+        #section4>h2{text-align: center;margin-bottom: 15px;}
+        #section4>p{text-align: center;margin-bottom: 15px;font-size: 18px;}
+        #section4>ul { width: 1200px;}
+        #section4>ul>li{width: 380px;height: 380px;float: left;}
+        #section4>ul>li:nth-child(1){margin-right: 30px;}
+        #section4>ul>li:nth-child(2){margin-right: 30px;}
+        #section4>ul>li>h4{text-decoration: line-through;}
+        #section4>ul>li>h5{text-decoration: underline;margin-top: 5px;}
+        #section4>img{}
+
+
+        #section5{width: 1200px;margin: auto;text-align: center;}
+        #section5>h2{text-align: center;}
+        #section5>p{font-size: 18px;margin-bottom: 15px;}
+        #sec5_box{width: 1200px;height: 675px;background: url(sec3_img5.jpg);position: relative;}
+        #sec5_box>#sec5_left {position: absolute;top: 0;bottom: 0 ;margin: auto;left: 10px;}
+        #sec5_box>#sec5_rt { position: absolute;top: 0;bottom: 0;margin: auto;right: 10px;}
+        
+        footer{margin-top: 100px;width: 100%;height: 150px;background-color: #ccc;}
+        #footer_box{width: 1200px;height: 150px;margin: auto;}
+        #footer_text{width: 400px;height: 70px;float: left;margin-top: 40px;}
+        #footer_icon { width: 200px;height: 70px;float: right;margin-top: 40px;}
+        #footer_text>h5{margin-bottom: 5px;}
+        #footer_text>h6{margin-bottom: 5px;}
+        #footer_text>p{font-size: 10px;}
+        #footer_icon>li{float: left;margin-top: 15px;margin-right: 10px;}
+        #footer_icon>li>img{}
+    </style></head><body>
+        <!--  -->
+        <div id="main">
+            <header>
+                <img src="logo.png" alt="" id="logo">
+                <ul id="menu">
+                    <li>XC40</li>
+                    <li>Event</li>
+                    <li>Meet XCeptionals</li>
+                </ul>
+            </header>
+            <div id="main_textbox">
+                <h2><img src="xc40_stit.png" alt=""></h2>
+                <h3><img src="xc40_tit.png" alt=""></h3>
+                <h4>가져야 할 것만 가질 것</h4>
+            </div>
+        </div>
+<!-- sec1 -->
+<div id="section1">
+    <!-- w1200 -->
+
+    <h2> <img src="sec1_tit.png" alt=""></h2>
+    <p>정해인이 말하는 THE NEW VOLVO XC40, 독보적인 만남을 영상으로 확인하세요.</p>
+    <div id="section1_box1">
+        <img src="paly.png" alt="" class="play_btn">
+    </div>   
+    <!-- w1200 h675 -->
+    <div id="section1_box2">
+        <p>다른 것으로 대체할 수 없는 가져야 할 것만 가질 것은 무엇인가요<br>나에게 있어 독보적인 존재감을 사진으로 공유해주세요.</p>
+        <img src="sec1_btn.png" alt=""class="sec1_btn1">
+    </div>
+    <!-- w1200  h220 -->
+</div>
+<!--sec2  -->
+<div id="section2">
+<h2><img src="sec2_tit.png" alt=""id="sec2_tit"></h2>
+<p>당신이 필요한 것만 모두 갖춘 SUV</p>
+<ul>
+    <li><img src="sec2_img1.jpg" alt="">
+        <h4>DESIGN</h4>
+    <h5>도시형 SUV</h5></li>
+    <li><img src="sec2_img2.jpg" alt="">
+        <h4>VERSATILTY</h4>
+    <h5>편안한 일상을 누리는 공간</h5></li>
+    <li><img src="sec2_img3.jpg" alt="">
+        <h4>SAFETY</h4>
+    <h5>운전자를 보호하는 기술</h5></li>
+    <li><img src="sec2_img4.jpg" alt="">
+        <h4>TECH</h4>
+    <h5>독창적인 솔루션</h5></li>
+    <li><img src="sec2_img5.jpg" alt="">
+        <h4>DRIVING</h4>
+    <h5>언제나 어디든, 원하는 대로</h5></li>
+</ul>
+<img src="sec2_btn.png" alt="" id="sec2_btn">
+</div>
+<!--  -->
+<div id="section3">
+    <h2>
+        <img src="sec4_tit.png" alt="">
+       </h2>
+       <p>가져야 할 것만 가질 것</p>
+        <div id="section3_box">
+            <img src="paly.png" alt="" id="sec3_box_bt">
+        </div>
+</div>
+<div id="section4">
+
+    <h2><img src="sec5_tit.png" alt=""></h2>
+<p>XC40 트림 옵션</p>
+<ul>
+    <li><img src="sec5_img1.jpg" alt="">
+    <h4>XC40 Momentum</h4>
+    <h5>보다 멋진 도시 생활</h5>
+    <h6>Explore trim</h6></li>
+    <li><img src="sec5_img2.jpg" alt="">
+        <h4>XC40 Inscription</h4>
+        <h5>진보적인 스칸디나비아 럭셔리 출시 예정</h5>
+        <h6>Explore trim</h6></li>
+    <li><img src="sec5_img3.jpg" alt="">
+        <h4>XC40 R-Design</h4>
+        <h5>역동적인 대비와 자신만만한 존재감</h5>
+        <h6>Explore trim</h6></li>
+</ul>
+    <img src="sec5_btn.png" alt="">
+</div>
+
+<div id="section5">
+    <h2><img src="sec3_tit.png" alt=""></h2>
+    <p>정해인과 XC40의 만남</p>
+    <div id="sec5_box">
+        <img src="btn_prev.png" alt="" id="sec5_left">
+        <img src="btn_next.png" alt="" id="sec5_rt">
+    </div>    
+</div>
+    
+    <footer>
+        <div id="footer_box">
+<div id="footer_text">
+<h5>문의 (볼보자동차코리아 고객센터)</h5>
+<h6>1588-1777</h6>
+<p>Copyright ⓒ 2018 Volvo Car Corporation (또는 계열사 또는 라이센스 제공자)</p>
+</div>
+        <ul id="footer_icon">
+            <li><img src="foot_btn_fb.png" alt=""></li>
+            <li><img src="foot_btn_ins.png" alt=""></li>
+            <li><img src="foot_btn_volvo.png" alt=""></li>
+        </ul>
+        </div>
+
+
+    </footer>
+
+    
+
+
+</body>
+</html>
